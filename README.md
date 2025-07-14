@@ -1,11 +1,11 @@
 # 🤖 PROJETO FINAL — INTELIGÊNCIA ARTIFICIAL
 
-📘 Disciplina: Inteligência Artificial
-👨‍🏫 Professor: Otílio Paulo
-🏫 Instituto: IFPI — Instituto Federal do Piauí
-👩‍🎓 Aluno(a): Izadora Pamella Silva Oliveira
-🗂️ Status: Concluído • 100%
-🛠️ Tecnologias Utilizadas: Python, HTML, Tailwind CSS, JavaScript, API Google Gemini
+**📘 Disciplina: Inteligência Artificial
+**👨‍🏫 Professor: Otílio Paulo
+**🏫 Instituto: IFPI — Instituto Federal do Piauí
+**👩‍🎓 Aluno(a): Izadora Pamella Silva Oliveira
+**🗂️ Status: Concluído • 100%
+**🛠️ Tecnologias Utilizadas: Python, HTML, Tailwind CSS, JavaScript, API Google Gemini
 
 ---
 
