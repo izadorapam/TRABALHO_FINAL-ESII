@@ -130,6 +130,31 @@ document.addEventListener('DOMContentLoaded', () => {
     const textoMensagem = entradaMensagem.value.trim();
     if (!textoMensagem && !imagemAtual) return;
 
+    // Verifica se é uma pergunta com resposta pronta
+const perguntaNormalizada = textoMensagem.toLowerCase().trim();
+
+if (perguntaNormalizada === 'quem é o professor mais gato do if?') {
+  mensagens.push({
+    texto: textoMensagem,
+    remetente: 'usuario',
+    imagem: imagemAtual
+  });
+  mensagens.push({
+    texto: 'O professor Otílio Paulo.',
+    remetente: 'bot'
+  });
+  atualizarInterface();
+  
+  // Limpa inputs
+  entradaMensagem.value = '';
+  imagemAtual = null;
+  entradaImagem.value = '';
+  botaoRemoverImagem.classList.add('hidden');
+  botaoEnviar.disabled = false;
+  
+  return;
+}
+
     // Desabilita botão de enviar
     botaoEnviar.disabled = true;
 
